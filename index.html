@@ -5,24 +5,182 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2? family= Raleway:wght@700 & family= Roboto:wght@400;500;700;900 & display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="/css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <a href="https://subtle-crumble-c3d1ff.netlify.app/"
-        ><span>Web</span><span>Studio</span></a
-      >
+    <div class="wrapper">
+      <header class="buttons">
+        <a class="webstudio" href="https://subtle-crumble-c3d1ff.netlify.app/"
+          ><span class="highlight">Web</span><span>Studio</span></a
+        >
 
-      <nav>
-        <ul>
-          <li><a href="Agencja">Agencja</a></li>
-          <li><a href="Portfolio">Portfolio</a></li>
-          <li><a href="Kontakt">Kontakt</a></li>
+        <nav class="navigation">
+          <ul style="list-style: none">
+            <li><a class="agency" href="Agencja">Agencja</a></li>
+            <li><a class="portfolio" href="Portfolio">Portfolio</a></li>
+            <li><a class="contact" href="Kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul style="list-style: none">
+          <li><a href="mailto:info@example.com">info@example.com</a></li>
+          <li>
+            <a class="contacts-links" href="tel:+48111111111">+48111111111</a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li>
+      </header>
+      <main>
+        <section class="main-description">
+          <h1 class="description-name">
+            EFEKTYWNE ROZWIĄZANIA</br> DLA WASZEGO BIZNESU
+          </h1>
+
+          <button class="description-click" type="button">Zamów Usługę</button>
+        </section>
+
+        <section class="elaboration">
+          <ul style="list-style: none">
+            <li>
+              <h3>LOREM IPSUM</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+            </li>
+          </ul>
+
+          <ul style="list-style: none">
+            <li>
+              <h3>LOREM IPSUM</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+            </li>
+          </ul>
+
+          <ul style="list-style: none">
+            <li>
+              <h3>LOREM IPSUM</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+            </li>
+          </ul>
+
+          <ul style="list-style: none">
+            <li>
+              <h3>LOREM IPSUM</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Czym się zajmujemy</h2>
+          <ul style="list-style: none">
+            <li>
+              <img
+                src="./images/klawiatura.jpg"
+                alt="typing on the keyboard"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/telefon.jpg"
+                alt="holding the phone in the background the laptop"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/tablet.jpg"
+                alt="using the tablet"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Nasz Zespół</h2>
+          <ul style="list-style: none">
+            <li>
+              <figure>
+                <img
+                  src="./images/JohnDoe1.jpg"
+                  alt="John Doe in glasses"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3>John Doe</h3>
+                  <p>Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="./images/JohnDoe2.jpg"
+                  alt="John Doe blonde woman"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3>John Doe</h3>
+                  <p>Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="./images/JohnDoe3.jpg"
+                  alt="John Doe in a blue shirt"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3>John Doe</h3>
+                  <p>Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="./images/JohnDoe4.jpg"
+                  alt="John Doe in glasses and a black tishirt"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3>John Doe</h3>
+                  <p>UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <address>
+          <a href="https://subtle-crumble-c3d1ff.netlify.app/"
+            ><span class="highlight">Web</span><span>Studio</span></a
+          ><br />
+          m. Warszawa, Aleje Jerozolimskie 21<br />
+          <a href="mailto:info@example.com">info@example.com</a><br />
           <a class="contacts-links" href="tel:+48111111111">+48111111111</a>
+<<<<<<< HEAD
         </li>
       </ul>
     </header>
@@ -169,5 +327,10 @@
         <a class="contacts-links" href="tel:+48111111111">+48111111111</a>
       </address>
     </footer>
+=======
+        </address>
+      </footer>
+    </div>
+>>>>>>> a00d91e26fc2b4b90c542eea50f6e1e22deb60c8
   </body>
 </html>
